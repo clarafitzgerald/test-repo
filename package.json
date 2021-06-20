@@ -1,0 +1,20 @@
+{
+  "name": "test-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd api && node server.js && cd .. && cd app && react-scripts start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clarafitzgerald/test-repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clarafitzgerald/test-repo/issues"
+  },
+  "homepage": "https://github.com/clarafitzgerald/test-repo#readme"
+}
